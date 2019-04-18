@@ -1,0 +1,5 @@
+package: go-practice
+import:
+- package: github.com/dmitryikh/leaves
+- package: github.com/influxdata/influxdb.git
+  version: ^2.0.0-alpha.8

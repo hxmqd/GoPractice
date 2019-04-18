@@ -1,0 +1,13 @@
+hash: 0344bf32500d73f45a61bc340398ca9a051c6edff731d85b439dcd7304dda2a6
+updated: 2019-04-13T21:42:10.943634+08:00
+imports:
+- name: github.com/dmitryikh/leaves
+  version: 3fa8b3bce36e4f5dad2ae8d0b4e4fddc4e17faa7
+  subpackages:
+  - internal/pickle
+  - internal/xgbin
+  - transformation
+  - util
+- name: github.com/influxdata/influxdb.git
+  version: 2c4deb8b968f14f41e5dcbb6f8a8f9a6f60adb7f
+testImports: []
