@@ -17,7 +17,7 @@ func main(){
 		for x := range naturals{
 			squares <- x*x
 		}
-	/*	for {
+		/*for {
 			x, ok := <- naturals
 			if !ok {
 				break
